@@ -12,7 +12,7 @@ def print_result(r):
     else:
         pos = ""
     print(
-        f"### {r['written_rep']}{pos} {r['match_score']} * {r['translation_score']} * {r['importance']}"
+        f"### {r['written_rep']}{pos}"
     )
 
     if r["forms"]:
